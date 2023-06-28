@@ -1,0 +1,17 @@
+@import '../../scss/variables.scss';
+
+
+.header {
+    background-color: $maintheme;
+    // padding: .6rem 0rem;
+    color: $light;
+    .headerBTN{
+         color: $maintheme;
+         background-color: $light;
+         padding: .9rem 1.5rem;
+         border-radius: 4px;
+         font-weight: bold;
+         font-size: 1.3rem;
+    }
+}
+

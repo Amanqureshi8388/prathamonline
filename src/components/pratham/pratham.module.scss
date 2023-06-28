@@ -1,0 +1,43 @@
+@import '../../scss/variables.scss';
+
+.name{
+    background: url('https://www.prathamonline.com/images/bg/banner-bg.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    .overlay{
+        opacity: 0.9;
+        color: #000;
+        text-shadow: none;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,0.5);
+        background-color: #3b3c3e;
+        left: 0;
+        z-index: -1;
+    }
+
+    .outer{
+        z-index: 2;
+        .wrapper{
+            .box{
+                color:#6f6f6f;
+                .image{
+                    width: 60px;
+                }
+                .content{
+                    color: $light;
+                    margin-top: 2rem;
+                }
+            }
+        }
+
+    }
+}
